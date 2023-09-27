@@ -1,0 +1,84 @@
+.search_input {
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgray;
+  height: 25px;
+  padding: 10px 25px;
+  width: 500px;
+  margin: 0px auto;
+  margin-top: 30px;
+  border-radius: 999px;
+}
+.search_input svg {
+  color: gray;
+  font-size: 22px;
+}
+.search_input:hover {
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.1);
+}
+.search_input > input {
+  flex: 1;
+  padding: 8px 13px;
+  font-size: medium;
+  border: 0;
+  outline: 0;
+}
+.search_buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  color: #3c4043;
+  font-size: 14px;
+}
+.search_buttons button {
+  margin: 5px;
+  background: #f8f8f8;
+  border: 1px solid white;
+  text-transform: inherit;
+  border-radius: 4px;
+  font-family: arial, sans-serif;
+  font-size: 15px;
+  height: 36px;
+  padding: 0px 21px;
+  cursor: pointer;
+}
+.search_buttons button:hover {
+  margin: 5px;
+  background: #f8f8f8;
+  color: #000;
+  border: 1px solid #c6c6c6;
+}
+.youtube_kids {
+  text-align: center;
+  font-family: arial, sans-serif;
+  font-size: small;
+  margin: 15px;
+}
+.youtube_image {
+  max-width: 30px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.youtube_kids a {
+  cursor: pointer;
+  color: #1a0dab;
+  text-decoration: none;
+}
+.google_languages {
+  margin: 30px 0;
+}
+.google_languages a {
+  margin: 0px 10px;
+  cursor: pointer;
+  color: #1a0dab;
+  text-decoration: none;
+}
+.google_languages a:hover {
+  color: #1a0dab;
+}
+.youtube_kids a:visited {
+  color: #5a06bb;
+}
+.space {
+  margin: 0 5px 0 5px;
+}

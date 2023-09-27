@@ -1,0 +1,53 @@
+body {
+  overflow-y: hidden;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding-top: 20px;
+}
+.home_headerRight {
+  display: flex; /* Use flexbox for horizontal alignment */
+  justify-content: flex-end; /* Align children to the right */
+  align-items: center; /* Vertically center the content */
+  border-radius: 50%;
+}
+.home_headerRight a {
+  text-decoration: none;
+  color: black;
+  margin-right: 28px;
+  font-size: 14px;
+  line-height: 34px;
+  font-family: "Roboto, Arial, sans-serif";
+}
+
+.home_headerRight svg {
+  margin-right: 20px; /* Add some space between elements */
+  width: 22px; /* Adjust the width to control the size of the SVG */
+  height: 22px; /* Adjust the height to control the size of the SVG */
+  fill: #2f4f4f; /* Set the fill color for the SVG */
+  cursor: pointer;
+  font-size: 30px;
+}
+.home_headerRight svg:hover {
+  border-radius: 20%;
+  background-color: #f0f0f0; /* Change the fill color of the SVG on hover */
+}
+
+.home_body {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 100px;
+}
+.home_body img {
+  max-width: 272px; /* Ensure the image doesn't exceed its container */
+  max-height: 92px; /* Set a maximum height for the image */
+  width: 100%; /* Allow the image to scale proportionally */
+  height: auto;
+}
